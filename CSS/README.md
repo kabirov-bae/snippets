@@ -2,4 +2,4 @@
 
 ## Reset CSS
 
-[[reset.css|Reset]] styles to customize for yourself
+[Reset](reset.css) styles to customize for yourself
