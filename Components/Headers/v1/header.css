@@ -1,0 +1,94 @@
+.container {
+  max-width: 1568px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.6em;
+  padding: 2.5rem 0;
+}
+.header__logo {
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header__nav {
+}
+.header__nav-list {
+  display: flex;
+  gap: 3em;
+}
+.header__nav-item {
+}
+.header__nav-link {
+  opacity: 0.7;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+.header__nav-link:hover {
+  opacity: 1;
+}
+.header__nav-link.active {
+  opacity: 1;
+  border-bottom-color: #fffff0;
+}
+
+.header__nav-dropdown {
+  display: flex;
+  gap: 1em;
+  position: relative;
+  border: none;
+}
+
+.header__nav-dropdown-list {
+  position: absolute;
+  width: max-content;
+  padding: 0.5em 1em;
+  top: 200%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.3s;
+  background: #ffffff1a;
+  opacity: 0;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.header__nav-dropdown.expanded .header__nav-dropdown-list {
+  opacity: 1;
+}
+.js-chevron {
+  transition: 0.3s;
+}
+
+.header__nav-dropdown.expanded .js-chevron {
+  rotate: -180deg;
+}
+
+.header__user {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+.header__register {
+}
+.header__login {
+  padding: 0.5rem 1rem;
+  border: 1px solid #fffff0;
+  border-radius: 3em;
+  transition: 0.3s;
+}
+
+.header__login:hover {
+  background: #fffff0;
+  color: #0c0c0c;
+}

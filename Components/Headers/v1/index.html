@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../../CSS/reset.css" />
+    <link rel="stylesheet" href="../../../Fonts/Montserrat/stylesheet.css" />
+    <link rel="stylesheet" href="header.css" />
+    <title>Header v1</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="#" class="header__logo">
+            <!-- Img -->
+            Logo
+          </a>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link active">Home</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">About</a>
+              </li>
+              <li class="header__nav-item">
+                <div
+                  href="#"
+                  class="header__nav-link header__nav-dropdown js-dropdown"
+                >
+                  <span>Form</span>
+                  <svg
+                    class="js-chevron"
+                    width="14"
+                    height="8"
+                    viewBox="0 0 14 8"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0.646447 0.646447C0.841709 0.451184 1.15829 0.451184 1.35355 0.646447L7 6.29289L12.6464 0.646447C12.8417 0.451184 13.1583 0.451184 13.3536 0.646447C13.5488 0.841709 13.5488 1.15829 13.3536 1.35355L7.35355 7.35355C7.15829 7.54882 6.84171 7.54882 6.64645 7.35355L0.646447 1.35355C0.451184 1.15829 0.451184 0.841709 0.646447 0.646447Z"
+                      fill="#fffff0"
+                    />
+                  </svg>
+                  <ul class="header__nav-dropdown-list js-dropdown-content">
+                    <li class="header__nav-dropdown-item">
+                      <a href="#" class="header__nav-dropdown-link">Form 1</a>
+                    </li>
+                    <li class="header__nav-dropdown-item">
+                      <a href="#" class="header__nav-dropdown-link">Form 2</a>
+                    </li>
+                    <li class="header__nav-dropdown-item">
+                      <a href="#" class="header__nav-dropdown-link">Form 3</a>
+                    </li>
+                    <li class="header__nav-dropdown-item">
+                      <a href="#" class="header__nav-dropdown-link">Form 4</a>
+                    </li>
+                    <li class="header__nav-dropdown-item">
+                      <a href="#" class="header__nav-dropdown-link">Form 5</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header__user">
+            <a href="#" class="header__register">Register</a>
+            <a href="#" class="header__login">Login</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
