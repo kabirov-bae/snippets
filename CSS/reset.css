@@ -35,6 +35,16 @@ main {
   display: block;
 }
 
+table,
+thead,
+tfoot,
+tbody,
+tr,
+th {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
 h1,
 h2,
 h3,
@@ -127,4 +137,11 @@ legend {
 body {
   background: #0c0c0c;
   color: #fffff0;
+  min-width: 360px;
+}
+
+.container {
+  max-width: 1568px;
+  padding: 0 16px;
+  margin: 0 auto;
 }
