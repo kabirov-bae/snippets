@@ -2,7 +2,7 @@
 
 ## Snippets for
 
-- [JS](JavaScript/)
 - [CSS](CSS/)
-- [Fonts](Fonts/)
 - [Components](Components/)
+- [Fonts](Fonts/)
+- [JavaScript](JavaScript/)
