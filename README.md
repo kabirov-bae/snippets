@@ -1,11 +1,8 @@
-# Code snippent
-
----
+# Code snippet
 
 ## Snippets for
 
-- JS
-- CSS
-- Fonts
-
----
+- [JS](JavaScript/)
+- [CSS](CSS/)
+- [Fonts](Fonts/)
+- [Components](Components/)
